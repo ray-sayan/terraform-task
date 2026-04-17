@@ -23,6 +23,18 @@ This project demonstrates how to provision an **EC2 instance on AWS** using **Te
 - 🌍 **Internet Gateway (IGW)**
 - 🛣️ **Route Table + Association**
 - 🖥️ **EC2 Instance**
+- 📦 **S3 Bucket + Object Upload**
+
+---
+
+## 📦 S3 Storage
+
+- Created an **S3 bucket using Terraform**
+- Uploaded `index.html` from local system
+- Configured public access (for demo purpose)
+
+---
+
 
 ---
 
@@ -32,22 +44,21 @@ All resources are deployed in:
 
 ap-south-1 (Mumbai)
 
-
 ---
 
 ## ⚙️ How to Use
 
-### 1️⃣ Initialize Terraform
 ```bash
+1️⃣ Initialize Terraform
 terraform init
 
 2️⃣ Preview Changes
-
 terraform plan  (Dry run)
 
 3️⃣ Apply Configuration
-
 terraform apply
+
+
 
 📂 Project Structure
 .
@@ -68,3 +79,10 @@ terraform apply
 🙌 Author
 
 Sayan Ray
+
+
+---
+
+If you want, I can also:
+👉 :contentReference[oaicite:0]{index=0}  
+👉 Or :contentReference[oaicite:1]{index=1} 🚀
