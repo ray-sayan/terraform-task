@@ -35,16 +35,12 @@ This project demonstrates how to provision an **EC2 instance on AWS** using **Te
 
 ---
 
-
----
-
 ## 📍 Region
 
 All resources are deployed in:
 
 ap-south-1 (Mumbai)
 
----
 
 ## ⚙️ How to Use
 
@@ -83,6 +79,3 @@ Sayan Ray
 
 ---
 
-If you want, I can also:
-👉 :contentReference[oaicite:0]{index=0}  
-👉 Or :contentReference[oaicite:1]{index=1} 🚀
