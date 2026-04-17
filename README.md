@@ -29,3 +29,42 @@ This project demonstrates how to provision an **EC2 instance on AWS** using **Te
 ## 📍 Region
 
 All resources are deployed in:
+
+ap-south-1 (Mumbai)
+
+
+---
+
+## ⚙️ How to Use
+
+### 1️⃣ Initialize Terraform
+```bash
+terraform init
+
+2️⃣ Preview Changes
+
+terraform plan  (Dry run)
+
+3️⃣ Apply Configuration
+
+terraform apply
+
+📂 Project Structure
+.
+├── provider.tf
+├── vpc.tf
+├── terraform.tf
+├── .gitignore
+└── README.md
+
+
+
+💡 Key Highlights
+
+✨ Beginner-friendly Terraform setup
+✨ Real-world AWS infrastructure
+✨ Clean and production-style structure
+
+🙌 Author
+
+Sayan Ray
