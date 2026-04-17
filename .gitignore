@@ -1,0 +1,64 @@
+# =========================
+# Terraform Core
+# =========================
+
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# =========================
+# Sensitive Data
+# =========================
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# =========================
+# Plan output files
+# =========================
+
+*.tfplan
+*.plan
+
+# =========================
+# OS / Editor Files
+# =========================
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+
+# =========================
+# Logs & Temp
+# =========================
+
+*.log
+*.tmp
+*.bak
