@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket         = "sayan-terraform-state-12345"
-    key            = "dev/terraform.tfstate"
+    key            = "terraform.tfstate"
     region         = "ap-south-1"
     use_lockfile   = true   # ✅ NEW locking 
     encrypt        = true
