@@ -28,10 +28,9 @@ This project demonstrates how to provision an **EC2 instance on AWS** using **Te
 ---
 
 ## 📦 S3 Storage
-
-- Created an **S3 bucket using Terraform**
-- Uploaded `index.html` from local system
-- Configured public access (for demo purpose)
+Created an S3 bucket using Terraform
+Uploaded index.html from local system
+Configured public access (for demo purpose)
 
 ---
 
@@ -61,9 +60,30 @@ terraform apply
 ├── provider.tf
 ├── vpc.tf
 ├── terraform.tf
+├── S3.tf
 ├── .gitignore
 └── README.md
 
+🗄️ Terraform Remote Backend (S3 + Native Locking)
+
+This project uses an S3 remote backend to store Terraform state securely.
+
+✅ Features
+📦 State stored in S3 bucket
+🔒 State locking enabled 
+🛡️ Encryption enabled
+🕓 Versioning enabled for recovery
+
+⚙️ Backend Configuration
+terraform {
+  backend "s3" {
+    bucket         = "sayan-terraform-state-12345"
+    key            = "dev/terraform.tfstate"
+    region         = "ap-south-1"
+    encrypt        = true
+    use_lockfile   = true   # Native locking (new approach)
+  }
+}
 
 
 💡 Key Highlights
